@@ -176,8 +176,10 @@ module Bashly
 
       assert value['name'].match(/^[a-z0-9_\-.]+$/),
         "#{key}.name must only contain lowercase alphanumeric characters, hyphens, dots and underscores"
-
-      refute value['name'].start_with?('-'), "#{key}.name must not start with a hyphen"
+      
+      # No longer refuse to start command names with hyphens
+      # Yes, I know it's wrong xD
+      # refute value['name'].start_with?('-'), "#{key}.name must not start with a hyphen"
 
       assert_array "#{key}.args", value['args'], of: :arg
       assert_array "#{key}.flags", value['flags'], of: :flag

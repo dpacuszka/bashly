@@ -1,6 +1,14 @@
 Change Log
 ========================================
 
+v1.0.1_lb - 2023-03-06
+----------------------------------------
+
+This version serves my own purpose
+- Allow hyphens in command names 
+- remove `-*) ;;` from case statement parsing commands
+
+
 v1.0.1 - 2023-03-03
 ----------------------------------------
 
