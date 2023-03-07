@@ -7,7 +7,6 @@ This is a very selfish fork that fullfills my needs.
 For the real thing see below.
 
 ## [bashly.dannyb.co](https://bashly.dannyb.co)
-<\div>
   
  
 Changes that I have made:
